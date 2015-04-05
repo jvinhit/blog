@@ -84,4 +84,4 @@ function showrecentposts(json) {
     document.write('');
     if (!standardstyling) document.write('/div');
 
-}// JavaScript source code
+}
