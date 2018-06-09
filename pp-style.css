@@ -1,0 +1,222 @@
+/* html */
+html {font-family: "Roboto",boon,sans-serif; word-wrap: break-word;}
+code, pre {font-family: Menlo, Monaco, Consolas, "Courier New", monospace;}
+code {padding: 2px 4px; font-size: 1em; color: #e91e63; background-color: #fce4ec; border-radius: 4px;}
+pre {display: block; padding: 9.5px; margin: 10px 0; font-size: 0.9em; line-height: 1.42857143; color: #37474f; word-break: break-all; word-wrap: break-word; background-color: #eceff1; border-radius: 4px;}
+pre code {padding: 0; font-size: inherit; color: inherit; white-space: pre-wrap; background-color: transparent; border-radius: 0;}
+
+/* hide */
+.hidethis, .blog-feeds, .post-feeds, .feaimg, .status-msg-border, .disqus-blogger-comment-link, .widget.ContactForm, .widget h2, .widget-item-control {display: none; visibility: hidden}
+
+/* show */
+.showthis {display: block !important; visibility: visible !important} 
+
+/* waves-color */ 
+.waves-effect.waves-blue .waves-ripple {background-color: rgba(33, 150, 243, 0.65)}
+.waves-effect.waves-pink .waves-ripple {background-color: rgba(233, 30, 99, 0.65)}
+
+/* main */
+body {padding: 0 0 0 300px;}
+.row {width: 85%; margin-top: 10px;}
+.main.section {padding: 0}
+
+/* nav */
+nav {padding-right: 300px;}
+.brand-logo.blog-title {padding: 0 15px; font-size: 1.5rem; letter-spacing: 0.15em;}
+.brand-logo.title-desktop {letter-spacing: normal;}
+nav ul li a {font-size: 1.15em; font-weight: 300}
+nav a.button-collapse i {font-size: 2rem; padding-left: 15px}
+nav .nav-wrapper i.nav-icon {font-size: 1.35rem}
+.navbar-fixed.blog-main-nav {z-index: 995}
+.button-collapse.hide-on-large-only {display: block;}
+.button-collapse.hide-on-large-only.search-focused {display: none;}
+
+/* side nav */
+ul.side-nav.nav-mobile li {padding: 0; -webkit-transition: background-color 0.3s;-moz-transition: background-color 0.3s;-o-transition: background-color 0.3s;-ms-transition: background-color 0.3s;transition: background-color 0.3s;float: left;padding: 0px;list-style-type:none; width: 100%;}
+ul.side-nav.fixed a {line-height: 1.5; width: 100%; padding: 20px; font-size: 1.25em; font-weight: 400;}
+ul.side-nav.nav-mobile li:hover, ul.side-nav.nav-mobile li.active {background-color: transparent}
+ul.side-nav.fixed .collapsible-header.waves-effect {margin: 0}
+ul.side-nav.fixed .collapsible-body.side-nav-collapsible li a {padding: 10px 20px 10px 20px; margin: 0; font-size: 1.15em; color: #000; height: 100%;}
+ul.side-nav.fixed .collapsible-body.side-nav-collapsible li a:hover {color: #2196F3}
+.side-nav-collapsible .section {padding: 0}
+ul.side-nav.nav-mobile.fixed ul.collapsible li.active a.collapsible-header {color: #2196F3;}
+i.side-nav-icon, .collapsible-header.waves-effect.waves-blue i {width: auto; font-size: inherit; float: left; line-height: inherit; text-align: center; margin-right: 1rem;}
+ul.side-nav li a.logo {font-size: 1.5em;letter-spacing: 0.15em;font-weight: 500; padding: 15px 20px;}
+ul.side-nav.nav-mobile li.divider:hover {background-color: #e0e0e0;}
+ul.side-nav.fixed li.side-nav-bottom-link {height: 62px; padding: 20px; font-size: 0.9em; width: 100%; border-top: 1px solid #e0e0e0;}
+ul.side-nav.fixed li.side-nav-bottom-link a {font-size: inherit;width: auto;padding: 0;}
+ul.side-nav.fixed {width: 300px; overflow-y: auto;}
+
+/* nav search */
+nav .input-field {float: right; z-index: 999;}
+nav .input-field label i {color: #fff;}
+.input-field input[type=search] {width: 0; background: none;}
+.input-field input[type=search]:focus {background-color: #2196F3; color: #fff; width: calc(100vw - 378px);}
+.input-field input[type=search]:focus+label i {display: none;}
+.input-field input[type=search]:focus+label i, .input-field input[type=search]:focus ~ .mdi-navigation-arrow-back {color: #fff;}
+.input-field input[type=search] ~ .mdi-navigation-arrow-back {position: absolute; top: 0; left: 1rem; cursor: pointer; font-size: 2rem; visibility: hidden; display: none;}
+.input-field input[type=search] ~ .mdi-navigation-arrow-back.search-focused {visibility: visible; display: block;}
+
+
+/* mobile index post cards */
+.mobile-index-post {width: 100%; padding: 20px; border-bottom: 1px solid rgba(160, 160, 160, 0.2)}
+h5.mobile-index-title.entry-title {margin: 0.6rem 0 0.25rem 0}
+.mobile-index-arrow {float: right}
+.mobile-index-thumbnail {float: left; padding: 10px 10px 0 0}
+.mobile-index-contents .post-body {padding: 10px 0 0 82px}
+
+/* desktop index post cards */
+.card a {text-transform: none; margin-right: 0}
+.index-card-title.index-card-title-reveal {padding-right: 20px}
+.index-card-image-link {width: 100%}
+.card-image.index-card-image-list {display: -webkit-box !important; display: -moz-box !important; display: -ms-flexbox !important; display: -webkit-flex !important; display: flex !important; -webkit-flex-align: center !important; -ms-flex-align: center !important; -webkit-align-items: center !important; align-items: center !important;}
+.card-content {margin-bottom: 50px;}
+.btn-flat.card-jumplink {bottom: 0px;position: absolute;margin-bottom: 15px;font-size: 1.25em; padding: 0 0.5em;}
+.card-more {position: absolute;bottom: 0;right: 0;margin: 0 20px 15px 0;color: #fff;font-size: 24px;font-weight: 300;}
+.card-more-reveal {position: absolute;bottom: 0;right: 0; margin: 0 20px 15px 0;color: #fff;font-size: 24px;font-weight: 300;}
+.card-more-icon.waves-effect {width: 1.5em;height: 1.5em;line-height: 1.5em;}
+.index-card-image-list .valign {display: block;}
+.card .card-content p.index-post-body.index-card-post-body {margin-top: 10px;}
+.post-details {line-height: 1.8em; margin: 0 30px 0 0; font-weight: 300;}
+.post-details-list i {margin-right: 0.25em}
+.card.index-firstpost {height: 500px; position: relative}
+.card.index-firstpost .card-image {height: 350px;}
+.index-card-image-list {max-height: 350px}
+.card-reveal.index-card-reveal {height: auto}
+.card-grey-line {border-bottom: 1px solid rgba(160, 160, 160, 0.2); margin-top: 20px}
+.card-title.index-card-title.index-card-post-title {line-height: 1.25em; font-size: 2.25rem; font-weight: 500; width: 100%; background: rgba(31,31,31,0);
+background: -moz-linear-gradient(top, rgba(31,31,31,0) 5%, rgba(31,31,31,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(5%, rgba(31,31,31,0)), color-stop(100%, rgba(31,31,31,1)));
+background: -webkit-linear-gradient(top, rgba(31,31,31,0) 5%, rgba(31,31,31,1) 100%);
+background: -o-linear-gradient(top, rgba(31,31,31,0) 5%, rgba(31,31,31,1) 100%);
+background: -ms-linear-gradient(top, rgba(31,31,31,0) 5%, rgba(31,31,31,1) 100%);
+background: linear-gradient(to bottom, rgba(31,31,31,0) 5%, rgba(31,31,31,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#1f1f1f', GradientType=0 );}
+
+/* post body */
+.post-title.entry-title.blue-text {line-height: 1.2em; font-size: 2.9rem; font-weight: 500}
+.post-body {font-size: 1.1rem; font-weight: 400;}
+.post-body img {max-width: 100%; height: auto}
+.post-body a, .post-body a:visited {text-transform: none; transition: 0.3s; color: #e91e63} .post-body a:focus, .post-body a:hover {color: #c2185b}
+.post-body a.btn {background-color: #2196F3; margin: 0.15em 0;}
+.post-body a.fluidbox {margin: 0 !important;}
+.post-body i {line-height: 1;}
+.post-body table.tr-caption-container tbody tr td.tr-caption {padding: 0px 5px 15px 5px;} .post-body table.tr-caption-container tbody tr td {padding: 0;}
+.post-body ul {list-style: disc; padding-left: 40px;} .post-body ul li {list-style: disc;}
+.post-body h1 {font-size: 2.5em; line-height: 3.5rem; margin: 1em 0 0.5em 0; font-weight: 500;} .post-body h2 {font-size: 2em; line-height: 3rem; margin: 1em 0 0.5em 0; font-weight: 500; display: block; visibility: visible;} .post-body h3 {font-size: 1.75em; line-height: 2.75rem; margin: 1em 0 0.5em 0; font-weight: 500;} .post-body h4 {font-size: 1.5em; line-height: 2.5rem; margin: 1em 0 0.5em 0; font-weight: 500;} .post-body h5 {font-size: 1.25em; line-height: 2.25rem; font-weight: 500; margin: 1em 0 0.5em 0;}
+blockquote {border-left-color: #2196F3}
+.CSS_LIGHTBOX {z-index: 999 !important}
+
+/* footer */
+.footer {padding: 20px 0.75rem;}
+
+/* contact form */
+.input-field.contact-form-input.col input {height: 2.2rem;}
+.input-field.contact-form-input.col label {top: 0;}
+.input-field.contact-form-input.col label.active {-webkit-transform: translateY(-80%);-moz-transform: translateY(-80%);-ms-transform: translateY(-80%);-o-transform: translateY(-80%); transform: translateY(-80%);}
+.input-field.contact-form-input.col label.contact-form-message-label.active {-webkit-transform: translateY(-60%);-moz-transform: translateY(-60%);-ms-transform: translateY(-60%);-o-transform: translateY(-60%); transform: translateY(-60%);}
+.contact-form-cross {padding-left: 5px;}
+.input-field.contact-form-input.col .prefix.active, .input-field.contact-form-input.col input:focus + label, .input-field.contact-form-input.col textarea:focus + label {color: #2196F3;}
+.input-field.contact-form-input.col input:focus, .input-field.contact-form-input.col textarea:focus {border-bottom: 1px solid #2196F3; box-shadow: 0 1px 0 0 #2196F3;}
+
+/* modal */
+.modal-content.sharebox {text-align: center; padding: 1.5rem;} .modal-content.sharebox .row {margin-bottom: 0;}
+.modal-content.sharebox h5.sharebox-title-first {text-align: left; margin: 0 0 1.5rem 0;} .modal-content.sharebox h5.sharebox-title {text-align: left; margin: 1.5rem 0;}
+.btn-flat.share-link {width: 100%;}
+
+/* other components*/
+.blog-bottom-navi {padding: 30px 0 10px 0}
+.blog-mobile-link, .mobile-desktop-link.center {margin-top: 20px;}
+.status-msg-body a {padding-left: 10px}
+.contact-form-alert {padding-left: 125px;} .contact-form-cross {padding-left: 5px;}
+.contact-form.col.s12.l8 {padding: 0;} .contact-form .row .col.s12 {padding: 0 0.75em 0 0;}
+.contact-form-input.input-field .prefix ~ label {margin-left: 2.2rem;}
+[class^="mdi-"], [class*=" mdi-"] {word-wrap: break-word}
+
+/* responsive */
+@media only screen and (max-width: 992px) {
+body {padding: 0;}
+nav {padding-right: 0;}
+.brand-logo.blog-title {font-size: 1.35rem; margin-left: 125px; left: 0; letter-spacing: 0.15em;}
+.row {width: 85%}
+.input-field input[type=search]:focus {width: 90vw;}
+}
+
+@media only screen and (max-width: 600px) {
+.row {width: 100%; padding: 0; margin-top: 0;}
+.row .col.index-grid {padding: 0;}
+.parallax-container {display: none}
+.feaimg {display: block; visibility: visible;}
+.blog-bottom-navi {padding:20px 10px}
+.btn.btn-large.btn-pager {height: 36px; line-height: 36px}
+.status-msg-body.card-panel {box-shadow: none; -webkit-box-shadow: none}
+footer .container {width: 100%; padding: 0 10px;}
+.toast {height: auto; line-height: 1.5; padding: 10px;}
+.input-field input[type=search]:focus {width: 82.5vw;}
+}
+
+/* thai font */
+@font-face {
+    font-family: boon;
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-300.woff');
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-300.woff') format('woff'),
+         url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/otf/boon-300.otf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: boon;
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-300-oblique.woff');
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-300-oblique.woff') format('woff'),
+         url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/otf/boon-300-oblique.otf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: boon;
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-400.woff');
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-400.woff') format('woff'),
+         url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/otf/boon-400.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: boon;
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-400-oblique.woff');
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-400-oblique.woff') format('woff'),
+         url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/otf/boon-400-oblique.otf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: boon;
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-500.woff');
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-500.woff') format('woff'),
+         url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/otf/boon-500.otf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: boon;
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-500-oblique.woff');
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-500-oblique.woff') format('woff'),
+         url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/otf/boon-500-oblique.otf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: boon;
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-700.woff');
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-700.woff') format('woff'),
+         url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/otf/boon-700.otf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: boon;
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-700-oblique.woff');
+    src: url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/woff/boon-700-oblique.woff') format('woff'),
+         url('https://cdn.rawgit.com/fontuni/boon/gh-pages/fonts/otf/boon-700-oblique.otf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
