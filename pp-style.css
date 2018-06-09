@@ -695,7 +695,7 @@ blockquote {
         width: 82.5vw;
     }
 }
-.blog-posts .hfeed {
+.blog-posts.hfeed {
     position: relative;
     overflow: hidden;
 }
