@@ -675,11 +675,12 @@ blockquote {
     }
     .btn.btn-large.btn-pager {
         height: 36px;
-        line-height: 36px
+        line-height: 36px;
     }
     .status-msg-body.card-panel {
         box-shadow: none;
-        -webkit-box-shadow: none
+        -webkit-box-shadow: none;
+        position: relative!important;
     }
     footer .container {
         width: 100%;
@@ -694,7 +695,10 @@ blockquote {
         width: 82.5vw;
     }
 }
-
+.blog-posts .hfeed {
+    position: relative;
+    overflow: hidden;
+}
 /* thai font */
 
 @font-face {
