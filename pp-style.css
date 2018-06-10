@@ -230,6 +230,8 @@ ul.side-nav.fixed {
 nav .input-field {
     float: right;
     z-index: 999;
+    position: relative;
+    height: 100%;
 }
 
 nav .input-field label i {
