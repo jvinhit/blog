@@ -129,7 +129,10 @@ nav .nav-wrapper i.nav-icon {
 .button-collapse.hide-on-large-only.search-focused {
     display: none;
 }
-
+.form-seearch {
+    position: relative;
+    height: 100%;
+}
 /* side nav */
 
 ul.side-nav.nav-mobile li {

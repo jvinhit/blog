@@ -40,7 +40,9 @@
 /* post body */
 
 .parallax-container {
-    height: 80vh;
+    height: 55vh;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .post-body {
