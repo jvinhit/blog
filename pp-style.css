@@ -85,7 +85,7 @@ body {
 }
 
 .main.section {
-    padding: 0
+    padding: 15px 0;
 }
 
 /* nav */
@@ -699,10 +699,7 @@ blockquote {
     position: relative;
     overflow: hidden;
 }
-.main.section {
-    padding: 15px 0;
-    
-}
+
 /* thai font */
   
 @font-face {
