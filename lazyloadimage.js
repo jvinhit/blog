@@ -1,4 +1,4 @@
- document.addEventListener('DOMContentLoaded', function(){
+ window.onload = function(){
     var lazyloadImages = document.querySelectorAll("img");
     lazyloadImages.forEach(function(item){
       item.classList.add(' lazy img-lazy ')
@@ -29,4 +29,4 @@
     document.addEventListener("scroll", lazyload);
     window.addEventListener("resize", lazyload);
     window.addEventListener("orientationChange", lazyload);
-  });
+  };
