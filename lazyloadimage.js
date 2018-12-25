@@ -1,8 +1,9 @@
  window.onload = function(){
     var lazyloadImages = document.querySelectorAll("img");
-    lazyloadImages.forEach(function(item){
-      item.classList.add('lazy img-lazy')
-    })
+
+  [].forEach.call(lazyloadImages, function(item, index, array) {
+    item.classList.add('lazy img-lazy')
+});
   console.log('asdasd')
     var lazyloadThrottleTimeout;
     function lazyload () {
