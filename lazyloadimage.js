@@ -16,7 +16,7 @@
                 img.src = img.dataset.src;
                 img.style.opacity = 1;
                 img.style.display = 'block';
-                // img.classList.remove('lazy');
+                img.classList.remove('lazy');
               }
           });
           if(lazyloadImages.length == 0) { 
